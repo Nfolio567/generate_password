@@ -38,7 +38,6 @@ def main():
         if sym_state == 3 and i < 2:
             word_count.append(int(random.uniform(current_count//2,current_count)))
             sub = sub + word_count[i]
-
             continue
         elif i==0:
             word_count.append(int(random.uniform(current_count//2,current_count)))
