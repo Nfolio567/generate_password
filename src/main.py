@@ -1,10 +1,6 @@
-import sys
 import random
 import pyperclip as clip
 import argparse as arg
-from colorama import init, Fore, Style
-
-init()  # coloramaの初期化
 
 VERSION = "1.0.0"
 
